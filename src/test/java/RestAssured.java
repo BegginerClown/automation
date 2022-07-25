@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 public class RestAssured {
 
 
-    //часть 1
+
     @Order(1)
     @Test
     @DisplayName("1. Прощай Буся!")
@@ -41,7 +41,7 @@ public class RestAssured {
     }
 
 
-    //часть 2
+
     @Order(2)
     @Test
     void updatePet() {
@@ -69,7 +69,7 @@ public class RestAssured {
     }
 
 
-    //часть 3
+
     @Order(3)
     @Test
     void checkPet() {
@@ -87,7 +87,7 @@ public class RestAssured {
     }
 
 
-    //часть 4
+
     @Order(4)
     @Test
     void deletePet() {
